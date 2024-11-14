@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos"
 name                     : "Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz"
 description              : "This repository contains the official data release of Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis"
-url                      : "https://lebrat.github.io"
+url                      : "https://RemiChierchia.github.io"
 baseurl                  : "/SALVE"
 repository               : RemiChierchia/Syn3DWound
 teaser                   : "/assets/images/MR_recon.png"
