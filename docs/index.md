@@ -4,10 +4,9 @@ author_profile: True
 classes: wide
 excerpt: "A Synthetic Dataset for 3D Wound Bed Analysis<br/>ISBI 2024"
 header:
-  overlay_image: /assets/images/MR_recon.png
+  overlay_image: /assets/images/testmain_v2.png
   overlay_filter: 0.5
-  caption: "3D reconstructions based on Syn3DWound's data for different image resolution.
-  "
+  caption: "Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
   actions:
     - label: "Paper"
       url: "https://arxiv.org/abs/2311.15836"
