@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-AU"
-title                    : "Syn3DWound"
+title                    : "SALVE"
 title_separator          : "-"
-subtitle                 : "A Synthetic Dataset for 3D Wound Bed Analysis"
-name                     : "Leo Lebrat and Rodrigo Santa Cruz"
+subtitle                 : "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos"
+name                     : "Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz"
 description              : "This repository contains the official data release of Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis"
 url                      : "https://lebrat.github.io"
-baseurl                  : "/Syn3DWound"
-repository               : lebrat/Syn3DWound
+baseurl                  : "/SALVE"
+repository               : RemiChierchia/Syn3DWound
 teaser                   : "/assets/images/MR_recon.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
