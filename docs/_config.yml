@@ -20,11 +20,11 @@ title                    : "SALVE"
 title_separator          : "-"
 subtitle                 : "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos"
 name                     : "Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz"
-description              : "This repository contains the official data release of Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis"
+description              : "This repository contains the official data release of SALVE: A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos"
 url                      : "https://RemiChierchia.github.io"
 baseurl                  : "/SALVE"
-repository               : RemiChierchia/Syn3DWound
-teaser                   : "/assets/images/MR_recon.png"
+repository               : RemiChierchia/SALVE
+teaser                   : "/assets/images/testmain_v2.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -99,8 +99,10 @@ institutions:
   - USYD
 
 authors: 
+  - Remi
   - Leo
   - Rodrigo
+  - David
   - Clinton
   - Olivier
   # name             : "Your Name"

@@ -9,11 +9,11 @@ header:
   caption: "Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
   actions:
     - label: "Paper"
-      url: "https://arxiv.org/abs/2311.15836"
-    - label: "Code"
-      url: "https://github.com/lebrat/Syn3DWound"
-    - label: "Dataset"
-      url: "https://data.csiro.au/collection/csiro:61849"    
+      url: "https://arxiv.org/abs/2407.19652"
+    # - label: "Code"
+    #   url: "https://github.com/lebrat/Syn3DWound"
+    # - label: "Dataset"
+    #   url: "https://data.csiro.au/collection/csiro:61849"    
 # gallery_pipepline:
 #   - url: /assets/images/explaination_pipeline.png
 #     image_path: /assets/images/explaination_pipeline.png
