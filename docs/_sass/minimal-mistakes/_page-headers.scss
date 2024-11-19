@@ -1,0 +1,8 @@
+
+
+.page__hero {
+    background-size: contain; /* Display the entire image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center; /* Center the image */
+    background-color: #f4f4f4; /* Fallback color for gaps */
+  }
