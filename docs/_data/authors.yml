@@ -1,0 +1,11 @@
+REMI:
+  name        : "Remi Chierchia"
+  avatar      : ""
+  location    : "QUT & CSIRO"
+  links:
+    - label: "Institution"
+      icon: "fas fa-fw fa-briefcase"
+      url: "QUT & CSIRO"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: r.chierchia@qut.edu.au"
