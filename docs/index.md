@@ -4,7 +4,7 @@ author_profile: True
 classes: wide
 excerpt: "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos<br/>WACV 2025"
 header:
-  overlay_image: /assets/images/testmain_v2.png
+  overlay_image: /assets/images/testmain_1.png
   overlay_filter: 0.5
   caption: "Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
   actions:

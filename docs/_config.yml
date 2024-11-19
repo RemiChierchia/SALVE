@@ -24,7 +24,7 @@ description              : "This repository contains the official data release o
 url                      : "https://RemiChierchia.github.io"
 baseurl                  : "/SALVE"
 repository               : RemiChierchia/SALVE
-teaser                   : "/assets/images/testmain_v2.png"
+teaser                   : "/assets/images/testmain_1.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
