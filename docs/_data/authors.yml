@@ -1,4 +1,4 @@
-REMI:
+Remi:
   name        : "Remi Chierchia"
   avatar      : ""
   location    : "QUT & CSIRO"
@@ -8,4 +8,4 @@ REMI:
       url: "QUT & CSIRO"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto: r.chierchia@qut.edu.au"
+      url: "mailto: remi.chierchia@hdr.qut.edu.au"

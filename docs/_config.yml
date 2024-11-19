@@ -96,15 +96,14 @@ analytics:
 institutions: 
   - CSIRO
   - QUT
-  - USYD
 
 authors: 
-  - REMI
-  - Leo
-  - Rodrigo
-  - David
-  - Clinton
-  - Olivier
+  - Remi
+  # - Leo
+  # - Rodrigo
+  # - David
+  # - Clinton
+  # - Olivier
   # name             : "Your Name"
   # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # bio              : "I am an **amazing** person."
