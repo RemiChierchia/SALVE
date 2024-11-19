@@ -171,9 +171,10 @@ body {
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
-    background-size: contain; // was cover
+    background-size: contain; // Change from cover to contain
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #000000; // Add a fallback background color for gaps
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
