@@ -174,7 +174,7 @@ body {
     background-size: contain; // Change from cover to contain
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000000; // Add a fallback background color for gaps
+    background-color: #f4f4f4; // Add a fallback background color for gaps
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;

@@ -27,7 +27,8 @@ header:
 #   - url: /assets/images/avion_uniform.png
 #     image_path: /assets/images/avion_uniform.png
 #     alt: "Standard random uniform mesh discretization by a point cloud"
-#     title: "Standard random uniform mesh discretization by a point cloud" 
+#     title: "Standard random uniform mesh discretization by a point cloud"
+paginate: true 
 ---
 
 Page under developmet!
