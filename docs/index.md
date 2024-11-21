@@ -4,7 +4,7 @@ author_profile: True
 classes: wide
 excerpt: "A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos<br/>WACV 2025"
 header:
-  overlay_image: /assets/images/testmain_1.png
+  overlay_image: /assets/images/main.png
   overlay_filter: 0.5
   caption: "Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
   actions:
@@ -13,7 +13,7 @@ header:
     # - label: "Code"
     #   url: "https://github.com/lebrat/Syn3DWound"
     # - label: "Dataset"
-    #   url: "https://data.csiro.au/collection/csiro:61849"    
+    #   url: "https://data.csiro.au/collection/csiro:61849"
 # gallery_pipepline:
 #   - url: /assets/images/explaination_pipeline.png
 #     image_path: /assets/images/explaination_pipeline.png
@@ -33,14 +33,14 @@ paginate: true
 
 Page under developmet!
 
-<!-- commented below>
+Chronic wounds represent a significant health and economic burden worldwide. Effective wound treatments depend on multiple wound clinical measurements, typically performed manually by specialized healthcare professionals.
+Wound surface area is typically measured by performing planimetry of the wound bed. These procedures are not only invasive and cause patient discomfort but are also prone to errors due to ambiguous definitions of metrics and variations in professionals’ skill levels.
+Most existing automatic commercial approaches compute wound measurements solely from 2D images, which are perspective-dependent.
+3D analysis of wounds allows for the computation of richer wound biomarkers. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about NeRF and Gaussian Splatting!
 
-<!-- Chronic wound care is a significant health and economic challenge around the world. Unlike many other diseases, chronic wounds can be significantly mitigated through active monitoring. While various techniques exist, the scarcity of extensive and diverse training datasets limit the development and validation of machine learning frameworks. 
+We introduce a new dataset SALVE, designed to capture common challenges encountered in clinical settings. We evaluate robust photogrammetry pipelines such as COLMAP and Meshroom and modern neural rendering approaches for 3D reconstruction such as NeRF and Gaussian Splatting. We follow a rigorous evaluation protocol that defines metrics and procedures to assess the geometric accuracy and precision of the evaluated reconstruction algorithms.
 
-In this work we introduce **Syn3DWound**, an openly available dataset featuring high-fidelity simulated wounds complete with 2D and 3D annotations. We introduce baseline methods and a benchmarking framework aimed at automating 3D morphometry analysis and 2D/3D wound segmentation.
-
-
-
+<!--
 {% include gallery id="gallery_pipepline" caption="From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry." %} -->
 
 

@@ -24,7 +24,7 @@ description              : "This repository contains the official data release o
 url                      : "https://RemiChierchia.github.io"
 baseurl                  : "/SALVE"
 repository               : RemiChierchia/SALVE
-teaser                   : "/assets/images/testmain_1.png"
+teaser                   : "/assets/images/main.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -98,36 +98,36 @@ institutions:
   - QUT
 
 authors: 
-  - Remi
-  # - Leo
-  # - Rodrigo
-  # - David
-  # - Clinton
-  # - Olivier
-  # name             : "Your Name"
-  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "I am an **amazing** person."
-  # location         : "Somewhere"
-  # email            :
-  # links:
-  #   - label: "Email"
-  #     icon: "fas fa-fw fa-envelope-square"
-  #     # url: "mailto:your.name@email.com"
-  #   - label: "Website"
-  #     icon: "fas fa-fw fa-link"
-  #     # url: "https://your-website.com"
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     # url: "https://twitter.com/"
-  #   - label: "Facebook"
-  #     icon: "fab fa-fw fa-facebook-square"
-  #     # url: "https://facebook.com/"
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     # url: "https://github.com/"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     # url: "https://instagram.com/"
+  - REMI
+  - Leo
+  - Rodrigo
+  - Clinton
+  - Olivier
+  - David
+# name             : "Your Name"
+# avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+# bio              : "I am an **amazing** person."
+# location         : "Somewhere"
+# email            :
+# links:
+#   - label: "Email"
+#     icon: "fas fa-fw fa-envelope-square"
+#     # url: "mailto:your.name@email.com"
+#   - label: "Website"
+#     icon: "fas fa-fw fa-link"
+#     # url: "https://your-website.com"
+#   - label: "Twitter"
+#     icon: "fab fa-fw fa-twitter-square"
+#     # url: "https://twitter.com/"
+#   - label: "Facebook"
+#     icon: "fab fa-fw fa-facebook-square"
+#     # url: "https://facebook.com/"
+#   - label: "GitHub"
+#     icon: "fab fa-fw fa-github"
+#     # url: "https://github.com/"
+#   - label: "Instagram"
+#     icon: "fab fa-fw fa-instagram"
+#     # url: "https://instagram.com/"
 
 # Site Footer
 footer:
