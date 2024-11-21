@@ -31,8 +31,6 @@ header:
 paginate: true 
 ---
 
-Page under developmet!
-
 Chronic wounds represent a significant health and economic burden worldwide. Effective wound treatments depend on multiple wound clinical measurements, typically performed manually by specialized healthcare professionals.
 Wound surface area is typically measured by performing planimetry of the wound bed. These procedures are not only invasive and cause patient discomfort but are also prone to errors due to ambiguous definitions of metrics and variations in professionals’ skill levels.
 Most existing automatic commercial approaches compute wound measurements solely from 2D images, which are perspective-dependent.
@@ -40,6 +38,8 @@ Most existing automatic commercial approaches compute wound measurements solely 
 
 We introduce a new dataset SALVE, designed to capture common challenges encountered in clinical settings. We evaluate robust photogrammetry pipelines such as COLMAP and Meshroom and modern neural rendering approaches for 3D reconstruction such as NeRF and Gaussian Splatting. We follow a rigorous evaluation protocol that defines metrics and procedures to assess the geometric accuracy and precision of the evaluated reconstruction algorithms.
 
+
+Page under developmet!
 <!--
 {% include gallery id="gallery_pipepline" caption="From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry." %} -->
 
