@@ -40,15 +40,16 @@ We introduce a new dataset SALVE, designed to capture common challenges encounte
 
 
 Page under developmet!
-<!--
-{% include gallery id="gallery_pipepline" caption="From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry." %} -->
+
+
+<!-- {% include gallery id="gallery_pipepline" caption="From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry." %}
 
 
 
 ## Evaluation
 
 
-<!-- commented below>
+commented below>
 
 <!-- <br/>
 
