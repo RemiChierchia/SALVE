@@ -1,5 +1,5 @@
 <p align="center">
-    <!-- <img alt="nerfstudio" src="media/sdf_studio_4.png" width="300"> -->
+    <img alt="wounds" src="media/wounds.png" width="300">
     <h1 align="center">SALVE: A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos</h1>
     <h2 align="center">Paper accepted to WACV 2025</h2>
     <h3 align="center"><a href="https://remichierchia.github.io/SALVE/">Project Page</a> | <a href="">SALVE Dataset</a> | <a href="https://arxiv.org/abs/2407.19652">ArXiv (Preprint)</a> </h3>
