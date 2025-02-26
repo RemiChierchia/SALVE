@@ -55,8 +55,6 @@ We follow a <br>rigorous evaluation protocol<br/> that defines metrics and proce
 <!-- Page under developmet! -->
 
 
-<!-- {% include gallery id="gallery_pipepline" caption="From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry." %}
-
 
 
 ## Evaluation
