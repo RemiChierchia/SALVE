@@ -1015,11 +1015,42 @@
 <p>Most <b>existing</b> automatic commercial <b>approaches</b> compute wound measurements solely from <b>2D images</b>, which are perspective-dependent.
 <!-- put image --></p>
 
+<figure class=" ">
+  
+    
+      <a href="/SALVE/assets/images/2v3d_poster.png" title="Area measurement multi-view inconsistent if rely only on 2D.">
+          <img src="/SALVE/assets/images/2v3d_poster.png" alt="Area measurement multi-view inconsistent if rely only on 2D." />
+      </a>
+    
+  
+  
+    <figcaption>Area measurement multi-view inconsistent if rely only on 2D.
+</figcaption>
+  
+</figure>
+
 <p><b>3D analysis</b> of wounds allows for the computation of <b>richer wound biomarkers</b>. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about <b>NeRF</b> and <b>Gaussian Splatting</b>!
 <!-- put image? --></p>
 
-<p><b>We introduce</b> a new dataset <b>SALVE</b>, designed to capture common challenges encountered in clinical settings. 
+<p><b>We introduce</b> a new dataset <b>SALVE</b>, designed to capture common challenges encountered in clinical settings.
+It is composed of <b>3</b> silicon phantoms provided by <a href="https://traumasim.com.au/">TraumaSIM</a> representing <b>common wound types</b>.
+We captured videos using <b>2 devices</b> with different image quality and resolution.
+To capture 3D <b>ground-truth pointclouds</b> we used the Revopoint POP 3D scanner.
 <!-- put image --></p>
+
+<figure class=" ">
+  
+    
+      <a href="/SALVE/assets/images/acquisition_setup.png">
+          <img src="/SALVE/assets/images/acquisition_setup.png" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>Acquisition setup.
+</figcaption>
+  
+</figure>
 
 <h2 id="evaluation">Evaluation</h2>
 <p><b>We evaluate</b> robust <b>photogrammetry pipelines</b> such as COLMAP and Meshroom and <b>modern neural rendering approaches for 3D reconstruction</b> such as <b>NeRF</b> and <b>Gaussian Splatting</b>. 
@@ -1027,6 +1058,54 @@
 
 <p>We follow a <b>rigorous evaluation protocol</b> that defines metrics and procedures to assess the <b>geometric accuracy and precision</b> of the evaluated reconstruction algorithms.
 <!-- put image --></p>
+
+<figure class=" ">
+  
+    
+      <a href="/SALVE/assets/images/accuracy.png">
+          <img src="/SALVE/assets/images/accuracy.png" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>Meshroom, Neuralangelo, and Neus-facto consistently outperform other
+methods across various metrics, wound types, and recording devices. Neuralangelo and Neus-facto demonstrate advantages over Meshroom.
+Neus-facto reports the best performance in the inter-device evaluation, showing the
+most consistent reconstructions.
+</figcaption>
+  
+</figure>
+
+<figure class=" ">
+  
+    
+      <a href="/SALVE/assets/images/qualitative_iphone_sd_small_2.png">
+          <img src="/SALVE/assets/images/qualitative_iphone_sd_small_2.png" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>Photogrammetric pipelines often estimate noisy surfaces, due to challenges in stereo matching.
+Similarly, Gaussian splatting approaches encounter difficulties due to the Gaussians’
+initialization based on the SfM pointcloud.
+</figcaption>
+  
+</figure>
+
+<figure class=" ">
+  
+    
+      <a href="/SALVE/assets/images/qualitative_logitech_pis3_small_2.png">
+          <img src="/SALVE/assets/images/qualitative_logitech_pis3_small_2.png" alt="" />
+      </a>
+    
+  
+  
+    <figcaption>Notablty, Neuralangelo reconstruction’s quality drastically decreases in lower device
+quality.
+</figcaption>
+  
+</figure>
 
 <!-- Page under developmet! -->
 
