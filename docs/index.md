@@ -31,24 +31,26 @@ header:
 paginate: true 
 ---
 
-<br>Chronic wounds<br/> represent a significant <br>health<br/> and <br>economic<br/> <br>burden<br/> worldwide. Effective treatments <br>require<br/> wound clinical <br>measurements<br/>, typically <br>performed manually<br/> by specialized healthcare professionals.
+## Introduction & Motivation
+<b>Chronic wounds</b> represent a significant <b>health</b> and <b>economic</b> <b>burden</b> worldwide. Effective treatments <b>require</b> wound clinical <b>measurements</b>, typically <b>performed manually</b> by specialized healthcare professionals.
 
-Wound surface area is typically measured by performing <br>planimetry<br/> of the wound bed. These procedures are not only <br>invasive<br/> and cause patient <br>discomfort<br/> but are also prone to errors due to <br>ambiguous<br/> definitions of metrics and variations in professionals’ skill levels.
+Wound surface area is typically measured by performing <b>planimetry</b> of the wound bed. These procedures are not only <b>invasive</b> and cause patient <b>discomfort</b> but are also prone to errors due to <b>ambiguous</b> definitions of metrics and variations in professionals’ skill levels.
 <!-- Put image -->
 
-Most <br>existing<br/> automatic commercial <br>approaches<br/> compute wound measurements solely from <br>2D images<br/>, which are perspective-dependent.
+Most <b>existing</b> automatic commercial <b>approaches</b> compute wound measurements solely from <b>2D images</b>, which are perspective-dependent.
 <!-- put image -->
 
-<br>3D analysis<br/> of wounds allows for the computation of <br>richer wound biomarkers<br/>. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about <br>NeRF<br/> and <br>Gaussian Splatting<br/>!
+<b>3D analysis</b> of wounds allows for the computation of <b>richer wound biomarkers</b>. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about <b>NeRF</b> and <b>Gaussian Splatting</b>!
 <!-- put image? -->
 
-<br>We introduce<br/> a new dataset <br>SALVE<br/>, designed to capture common challenges encountered in clinical settings. 
+<b>We introduce</b> a new dataset <b>SALVE</b>, designed to capture common challenges encountered in clinical settings. 
 <!-- put image -->
 
-<br>We evaluate<br/> robust <br>photogrammetry pipelines<br/> such as COLMAP and Meshroom and <br>modern neural rendering approaches for 3D reconstruction<br/> such as <br>NeRF<br/> and <br>Gaussian Splatting<br/>. 
+## Evaluation
+<b>We evaluate</b> robust <b>photogrammetry pipelines</b> such as COLMAP and Meshroom and <b>modern neural rendering approaches for 3D reconstruction</b> such as <b>NeRF</b> and <b>Gaussian Splatting</b>. 
 <!-- put image -->
 
-We follow a <br>rigorous evaluation protocol<br/> that defines metrics and procedures to assess the <br>geometric accuracy and precision<br/> of the evaluated reconstruction algorithms.
+We follow a <b>rigorous evaluation protocol</b> that defines metrics and procedures to assess the <b>geometric accuracy and precision</b> of the evaluated reconstruction algorithms.
 <!-- put image -->
 
 
@@ -57,16 +59,15 @@ We follow a <br>rigorous evaluation protocol<br/> that defines metrics and proce
 
 
 
-## Evaluation
 
 
-commented below>
+<!-- commented below> -->
 
 <!-- <br/>
 
 If you find this work useful, please cite
 ```
-@article{lebrat2023syn3dwound,
+@article{leb at2023syn3dwound,
   title={Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis},
   author={Lebrat, L{\'e}o and Cruz, Rodrigo Santa and Chierchia, Remi and Arzhaeva, Yulia and Armin, Mohammad Ali and Goldsmith, Joshua and Oorloff, Jeremy and Reddy, Prithvi and Nguyen, Chuong and Petersson, Lars and others},
   journal={arXiv preprint arXiv:2311.15836},
@@ -76,4 +77,7 @@ If you find this work useful, please cite
 
 
 ## Acknowledgment 
-This research was supported by [AI 4 Missions](https://research.csiro.au/ai4m/ai-is-helping-to-transform-wound-care/)
+This work was supported by
+the MRFF Rapid Applied Research Translation grant
+(RARUR000158), CSIRO [AI 4 Missions](https://research.csiro.au/ai4m/ai-is-helping-to-transform-wound-care/) Minimising Antimicrobial Resistance Mission, and Australian Government
+Training Research Program (AGRTP) Scholarship.
