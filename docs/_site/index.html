@@ -1,0 +1,1132 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>SALVE</title>
+<meta name="description" content="A 3D Reconstruction Benchmark of Wounds from Consumer-grade VideosWACV 2025">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta property="og:site_name" content="SALVE">
+<meta property="og:title" content="SALVE">
+<meta property="og:url" content="http://localhost:4000/SALVE/">
+
+
+  <meta property="og:description" content="A 3D Reconstruction Benchmark of Wounds from Consumer-grade VideosWACV 2025">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/SALVE/assets/images/main.png">
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/SALVE/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz",
+      "url": "http://localhost:4000/SALVE/"
+    
+  }
+</script>
+
+
+  <meta name="google-site-verification" content="6wu7RWfhFMj_5mnYSKm0XR-519omFSXxeVhMKB8K5y8" />
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/SALVE/feed.xml" type="application/atom+xml" rel="alternate" title="SALVE Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/SALVE/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <!-- 
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/SALVE/">
+          SALVE
+          <span class="site-subtitle">A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos</span>
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+ -->
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/SALVE/assets/images/main.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          SALVE
+
+        
+      </h1>
+      
+        <p class="page__lead">A 3D Reconstruction Benchmark of Wounds from Consumer-grade Videos<br />WACV 2025
+</p>
+      
+      
+
+
+      
+      
+        <p>
+         
+          <a href="https://arxiv.org/abs/2407.19652" class="btn btn--info btn--large">Paper (arXiv preprint)</a>
+        
+      
+    </div>
+  
+  
+    <span class="page__hero-caption">Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset.
+</span>
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  <h2 class="author__name" itemprop="name"  style="text-align:left">Authors:</h2>
+
+
+  <!-- <p>Author Key: REMI</p> -->
+  
+  <!-- <p>Author Data: {"name":"Remi Chierchia","avatar":"/assets/images/remi.png","location":"QUT & CSIRO","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto: remi.chierchia@hdr.qut.edu.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"https://remichierchia.github.io/"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/remi.png" alt="Remi Chierchia" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">Remi Chierchia</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">QUT & CSIRO</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto: remi.chierchia@hdr.qut.edu.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="https://remichierchia.github.io/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- <p>Author Key: Leo</p> -->
+  
+  <!-- <p>Author Data: {"name":"Leo Lebrat","avatar":"/assets/images/bio-leo.jpg","location":"CSIRO & QUT","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto:leo.lebrat@csiro.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"http://www.math.univ-toulouse.fr/~llebrat/"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/bio-leo.jpg" alt="Leo Lebrat" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">Leo Lebrat</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">CSIRO & QUT</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto:leo.lebrat@csiro.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="http://www.math.univ-toulouse.fr/~llebrat/" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- <p>Author Key: Rodrigo</p> -->
+  
+  <!-- <p>Author Data: {"name":"Rodrigo Santa Cruz","avatar":"/assets/images/bio-rodrigo.jpg","location":"CSIRO & QUT","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto:rodrigo.santacruz@csiro.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"https://rfsantacruz.com"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/bio-rodrigo.jpg" alt="Rodrigo Santa Cruz" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">Rodrigo Santa Cruz</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">CSIRO & QUT</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto:rodrigo.santacruz@csiro.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="https://rfsantacruz.com" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- <p>Author Key: Clinton</p> -->
+  
+  <!-- <p>Author Data: {"name":"Clinton Fookes","avatar":"/assets/images/bio-clinton.jpg","location":"QUT","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto:c.fookes@qut.edu.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"https://staff.qut.edu.au/staff/c.fookes"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/bio-clinton.jpg" alt="Clinton Fookes" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">Clinton Fookes</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">QUT</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto:c.fookes@qut.edu.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="https://staff.qut.edu.au/staff/c.fookes" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- <p>Author Key: Olivier</p> -->
+  
+  <!-- <p>Author Data: {"name":"Olivier Salvado","avatar":"/assets/images/bio-olivier.jpg","location":"CSIRO","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto:olivier.salvado@csiro.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"https://people.csiro.au/S/O/Olivier-Salvado"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/bio-olivier.jpg" alt="Olivier Salvado" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">Olivier Salvado</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">CSIRO</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto:olivier.salvado@csiro.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="https://people.csiro.au/S/O/Olivier-Salvado" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- <p>Author Key: David</p> -->
+  
+  <!-- <p>Author Data: {"name":"David Ahmedt-Aristizabal","avatar":"/assets/images/bio-david.jpeg","location":"CSIRO & QUT","links":[{"label":"Email","icon":"fas fa-fw fa-envelope-square","url":"mailto:david.ahmedtaristizabal@data61.csiro.au"},{"label":"Website","icon":"fas fa-fw fa-link","url":"https://people.csiro.au/a/d/david-ahmedtaristizabal"}]}</p> -->
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <img src="/SALVE/assets/images/bio-david.jpeg" alt="David Ahmedt-Aristizabal" itemprop="image" class="small">
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <h3 class="author__name" itemprop="name">David Ahmedt-Aristizabal</h3>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+          <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+            <i class="fas fa-fw fa-university" aria-hidden="true"></i> <span itemprop="name">CSIRO & QUT</span>
+          </li>
+        
+
+                
+        <li>
+          
+            
+              <a style="display:inline" href="mailto:david.ahmedtaristizabal@data61.csiro.au" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square center" aria-hidden="true"></i><span class="label">Email</span></a>
+            
+          
+            
+              <a style="display:inline" href="https://people.csiro.au/a/d/david-ahmedtaristizabal" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link center" aria-hidden="true"></i><span class="label">Website</span></a>
+            
+                
+        </li>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+    <br/><h2 class="author__name" itemprop="name"  style="text-align:left">Institutions:</h2>
+
+
+  
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <a href="https://www.csiro.au">
+            <img src="/SALVE/assets/images/CSIRO_Logo.png" alt="The Commonwealth Scientific and Industrial Research Organisation (CSIRO)" itemprop="image" class="small">
+          </a>
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <a href="https://www.csiro.au"><h3 class="author__name" itemprop="name">The Commonwealth Scientific and Industrial Research Organisation (CSIRO)</h3></a>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+  
+  
+  <div itemscope itemtype="https://schema.org/Person" class="small">
+    
+    
+      <div class="author__avatar">
+        
+          <a href="https://www.qut.edu.au/">
+            <img src="/SALVE/assets/images/QUT_Logo.png" alt="Queensland University of Technology (QUT)" itemprop="image" class="small">
+          </a>
+        
+      </div>
+    
+
+
+    <div class="author__content">
+      
+        <a href="https://www.qut.edu.au/"><h3 class="author__name" itemprop="name">Queensland University of Technology (QUT)</h3></a>
+      
+      
+    </div>
+
+    <div class="author__urls-wrapper">
+      <button class="btn btn--inverse">Follow</button>
+      <ul class="author__urls social-icons">
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+      </ul>
+    </div>
+  </div>
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <meta itemprop="description" content="A 3D Reconstruction Benchmark of Wounds from Consumer-grade VideosWACV 2025">
+    
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Page under developmet!</p>
+
+<p>Chronic wounds represent a significant health and economic burden worldwide. Effective wound treatments depend on multiple wound clinical measurements, typically performed manually by specialized healthcare professionals.
+Wound surface area is typically measured by performing planimetry of the wound bed. These procedures are not only invasive and cause patient discomfort but are also prone to errors due to ambiguous definitions of metrics and variations in professionals’ skill levels.
+Most existing automatic commercial approaches compute wound measurements solely from 2D images, which are perspective-dependent.
+3D analysis of wounds allows for the computation of richer wound biomarkers. However, studies in this direction only considered previous generation 3D reconstruction frameworks, which have recently been surpassed by highly optimized photogrammetric toolboxes and recent neural rendering alternatives, we are talking about NeRF and Gaussian Splatting!</p>
+
+<p>We introduce a new dataset SALVE, designed to capture common challenges encountered in clinical settings. We evaluate robust photogrammetry pipelines such as COLMAP and Meshroom and modern neural rendering approaches for 3D reconstruction such as NeRF and Gaussian Splatting. We follow a rigorous evaluation protocol that defines metrics and procedures to assess the geometric accuracy and precision of the evaluated reconstruction algorithms.</p>
+
+<!--
+
+
+
+
+<figure class=" ">
+  
+  
+    <figcaption>From a real wound and a 3D avatar Syn3DWound generate realistic synthetic images, segmentation mask and wound bed  geometry.
+</figcaption>
+  
+</figure>
+ -->
+
+<h2 id="evaluation">Evaluation</h2>
+
+<!-- commented below>
+
+<!-- <br/>
+
+If you find this work useful, please cite
+```
+@article{lebrat2023syn3dwound,
+  title={Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis},
+  author={Lebrat, L{\'e}o and Cruz, Rodrigo Santa and Chierchia, Remi and Arzhaeva, Yulia and Armin, Mohammad Ali and Goldsmith, Joshua and Oorloff, Jeremy and Reddy, Prithvi and Nguyen, Chuong and Petersson, Lars and others},
+  journal={arXiv preprint arXiv:2311.15836},
+  year={2023}
+}
+``` -->
+
+<h2 id="acknowledgment">Acknowledgment</h2>
+<p>This research was supported by <a href="https://research.csiro.au/ai4m/ai-is-helping-to-transform-wound-care/">AI 4 Missions</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+          <li><a href="https://github.com/lebrat/Syn3DWound" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/SALVE/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Remi Chierchia, Leo Lebrat and Rodrigo Santa Cruz. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/SALVE/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
