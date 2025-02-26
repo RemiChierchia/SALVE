@@ -10,7 +10,7 @@ header:
   actions:
     - label: "Paper (arXiv preprint)"
       url: "https://arxiv.org/abs/2407.19652"
-    # - label: "Code"
+    - label: "Dataset and code will be released soon."
     #   url: "https://github.com/lebrat/Syn3DWound"
     # - label: "Dataset"
     #   url: "https://data.csiro.au/collection/csiro:61849"
