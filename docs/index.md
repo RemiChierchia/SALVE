@@ -48,7 +48,7 @@ gallery_qualitative2:
 paginate: true 
 ---
 
-## Introduction & Motivation
+<!-- ## Introduction & Motivation -->
 <b>Chronic wounds</b> represent a significant <b>health</b> and <b>economic</b> <b>burden</b> worldwide. Effective treatments <b>require</b> wound clinical <b>measurements</b>, typically <b>performed manually</b> by specialized healthcare professionals.
 
 Wound surface area is typically measured by performing <b>planimetry</b> of the wound bed. These procedures are not only <b>invasive</b> and cause patient <b>discomfort</b> but are also prone to errors due to <b>ambiguous</b> definitions of metrics and variations in professionals’ skill levels.
