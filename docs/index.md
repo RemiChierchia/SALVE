@@ -95,17 +95,19 @@ quality." %}
 
 <!-- commented below> -->
 
-<!-- <br/>
+<!-- <br/> -->
 
-If you find this work useful, please cite
+<b>If you find this work useful, please cite</b>
 ```
-@article{leb at2023syn3dwound,
-  title={Syn3DWound: A Synthetic Dataset for 3D Wound Bed Analysis},
-  author={Lebrat, L{\'e}o and Cruz, Rodrigo Santa and Chierchia, Remi and Arzhaeva, Yulia and Armin, Mohammad Ali and Goldsmith, Joshua and Oorloff, Jeremy and Reddy, Prithvi and Nguyen, Chuong and Petersson, Lars and others},
-  journal={arXiv preprint arXiv:2311.15836},
-  year={2023}
+@InProceedings{Chierchia_2025_WACV,
+    author    = {Chierchia, Remi and Lebrat, Leo and Ahmedt-Aristizabal, David and Salvado, Olivier and Fookes, Clinton and Cruz, Rodrigo Santa},
+    title     = {SALVE: A 3D Reconstruction Benchmark of Wounds from Consumer-Grade Videos},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {4205-4214}
 }
-``` -->
+```
 
 
 ## Acknowledgment 
