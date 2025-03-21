@@ -10,10 +10,10 @@ header:
   actions:
     - label: "Paper (arXiv preprint)"
       url: "https://arxiv.org/abs/2407.19652"
-    - label: "Dataset and code will be released soon."
+    - label: "Dataset"
+      url: "https://data.csiro.au/collection/csiro:64747"
+    - label: "Code will be released soon."
     #   url: "https://github.com/lebrat/Syn3DWound"
-    # - label: "Dataset"
-    #   url: "https://data.csiro.au/collection/csiro:61849"
 gallery_2v3d:
   - url: /assets/images/2v3d_poster.png
     image_path: /assets/images/2v3d_poster.png
