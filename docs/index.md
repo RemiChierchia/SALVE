@@ -11,7 +11,7 @@ header:
     - label: "Paper (arXiv preprint)"
       url: "https://arxiv.org/abs/2407.19652"
     - label: "Dataset"
-      url: "https://data.csiro.au/collection/csiro:64747"
+      url: "https://doi.org/10.25919/h3mg-xh67"
     - label: "Code will be released soon."
     #   url: "https://github.com/lebrat/Syn3DWound"
 gallery_2v3d:
