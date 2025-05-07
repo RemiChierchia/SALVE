@@ -8,8 +8,8 @@ header:
   overlay_filter: 0.5
   caption: "Qualitative evaluation of six 3D surface reconstruction methods using our SALVE dataset."
   actions:
-    - label: "Paper (arXiv preprint)"
-      url: "https://arxiv.org/abs/2407.19652"
+    - label: "Paper"
+      url: "https://ieeexplore.ieee.org/abstract/document/10943648"
     - label: "Dataset"
       url: "https://doi.org/10.25919/h3mg-xh67"
     - label: "Code will be released soon."
